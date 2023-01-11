@@ -16,8 +16,12 @@ $('.slider__btn--next').click(function() {
 // Burger Menu
 
 const navBnt = document.querySelector ('.nav__toggle');
+const nav = document.querySelector ('.nav');
 const navIcon = document.querySelector ('.menu-icon');
 
+
 navBnt.onclick = function() {
+    nav.classList.toggle ('nav--mobile')
+    document.body.classList.toggle ('no--scroll')
     navIcon.classList.toggle('menu-icon-active');
 }
