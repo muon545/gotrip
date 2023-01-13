@@ -300,7 +300,7 @@ body {
 }
 
 .slider__btn--next {
-    right: -27px;
+    right: 135px;
     padding-right: 26px;
     justify-content: flex-end;
 }
@@ -323,8 +323,6 @@ body {
 .customers__img img {
     border-radius: 60px;
 }
-
-.customers__content {}
 
 .customers__title {
     margin-bottom: 35px;
@@ -353,8 +351,6 @@ body {
     background-color: #ff794e;
 }
 
-.review__client-desc {}
-
 .review__client-desc-name {
     margin-bottom: 10px;
     font-size: 33px;
@@ -372,8 +368,6 @@ body {
     font-size: 22px;
     font-weight: 500;
 }
-
-.review__rating {}
 
 /* CTA */
 
